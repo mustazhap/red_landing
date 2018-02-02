@@ -1,0 +1,120 @@
+.gallery{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.gallery__top{
+    margin-bottom: 55px;
+}
+.gallery__top_h1{
+    padding-top: 49px;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #414042;
+    margin: 0px ;
+}
+.gallery__top_p{
+    font-family: OpenSans;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #414042;
+}
+
+.gallery__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    padding-left: 113px;
+    padding-right: 113px;
+}
+.gallery__main_item{
+    cursor: pointer;
+    width: 270px;
+    font-family: OpenSans;
+    text-align: center;
+
+}
+.gallery__main_images{
+    width: 270px;
+    height: 200px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 270px;
+    border-radius: 8px;
+    opacity: 0;
+    background-color:  rgba(75,202,255, 0.7);;
+}
+.gallery__main_images_overlay:hover .overlay {
+    opacity: 1;
+}
+
+.gallery__main_images_overlay span {
+
+    color: #4bcaff;
+    font-size: 15px;
+}
+.gallery__main_images_overlay {
+    display:inline-block;
+    position:relative;
+}
+.gallery__main_images_overlay
+.gallery__main_images_text {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 41px;
+    bottom: 0;
+    padding-top: 8px;
+    width: 100%;
+    background-color: rgba(65,64,66, 0.7);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    color: #fff;
+}
+.gallery__main_images_overlay_text ,
+.gallery__main_images_overlay_text:focus,
+.gallery__main_images_overlay_text:visited ,
+.gallery__main_images_overlay_text:hover,
+.gallery__main_images_overlay_text:active {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.gallery__main_description{
+    color: #838383;
+    margin-top: 0px;
+}

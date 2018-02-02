@@ -1,0 +1,122 @@
+
+.prices {
+  width: 100%;
+  padding: 20px 0;
+  height: 700px;
+}
+.prices,
+.prices__title,
+.prices__cards_card,
+.prices__cards_card_info,
+.prices__cards_card_price,
+.prices__cards_card_button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.prices__title_top {
+  font-size: 36px;
+  color: #414042;
+}
+.prices__title_descr {
+  color: rgba(65,64,66,0.9);
+  font-size: 20px;
+  margin-bottom: 70px;
+  color: #414042;
+}
+.prices__cards {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.prices__cards_card {
+  height: 406px;
+  cursor: pointer;
+  color: #d7d7d7;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 30px 0;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+  background: #f9f9f9;
+  margin-right: 30px;
+  transition: 0.6s;
+}
+.prices__cards_card:nth-child {
+  margin-right: 0;
+}
+.prices__cards_card:hover .green_text {
+  color: #91c46b;
+}
+.prices__cards_card:hover .blue {
+  transition: 1s;
+  width: 346px;
+}
+.prices__cards_card:hover .saebiz {
+  transition: 1s;
+  width: 346px;
+}
+.prices__cards_card:hover .green {
+  transition: 1s;
+  width: 346px;
+}
+.prices__cards_card:hover {
+  transition: 0.4s;
+  height: 442px;
+}
+.prices__cards_card:hover .blue_text {
+  color: #4bcaff;
+}
+.prices__cards_card:hover .saebiz_text {
+  color: #fd7c00;
+}
+.prices__cards_card_title {
+  margin-bottom: 26px;
+}
+.prices__cards_card_price {
+  font-size: 85px;
+  color: #fff;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.blue {
+  background: #4bcaff;
+}
+.saebiz {
+  background: #fd7c00;
+}
+.green {
+  background: #91c46b;
+}
+.prices__cards_card_info span {
+  margin-bottom: 10px;
+}
+.prices__cards_card_button {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  width: 191px;
+  height: 50px;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.prices__cards_card_button:hover .green_text {
+  color: #f00;
+}
